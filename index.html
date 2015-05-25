@@ -9,22 +9,7 @@
 </head>
 <body>
 	<div class="container" ng-controller = "barCtrl as bar">
-		<div ng-repeat="antro in bar.datos">
-			<div class="row">
-	            <div class="col-md-4">
-	                <a href="#">
-	                    <img id="bar" ng-src="{{ antro.logotipo }}" >
-	                </a>
-	            </div>
-	            <div class="col-md-8">
-	                <h3>{{ antro.nombre }}</h3>
-	                <h4>{{ antro.slogan }}</h4>
-	                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultrices luctus augue nec molestie. Vestibulum pretium tortor ut faucibus efficitur. Sed congue elit nunc, aliquet aliquam eros pulvinar vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a arcu nunc. Proin fringilla, nulla a consequat accumsan, sem elit egestas felis, ut molestie libero sapien nec ante.</p>
-	            </div>
-	        </div>
-
-	        <hr />
-		</div>
+		<div ng-include="'bar.html'"></div>
 	</div>
 	
 	<script src="js/lib/angular.min.js"></script>

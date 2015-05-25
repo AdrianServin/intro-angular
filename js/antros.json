@@ -13,5 +13,15 @@
         "nombre": "Los Rieles",
         "slogan": "Antro & Banda",
         "logotipo": "img/Rieles.jpg"
+    },
+    {
+        "nombre": "The Duke",
+        "slogan": "Pub Irlandes",
+        "logotipo": "img/Duke.jpg"
+    },
+    {
+        "nombre": "Las Micheladas",
+        "slogan": "De la justo",
+        "logotipo": "img/Micheladas.jpg"
     }
 ]
